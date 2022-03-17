@@ -66,7 +66,7 @@ Now go and `/start` the bot. If everything went right, bot will respond with wel
 
 ## Setting up Streaming Service
 
-The streaming service can be a custom version of [TgFileStream](https://github.com/tulir/tgfilestream), modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The streaming service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to [TgFileStream](https://github.com/tulir/tgfilestream) and I do not plan to make it OSS.
+The streaming service can be a custom version of [TgFileStream](https://github.com/Noone927/tgfilestream), modded to work with this setup. The mod basicaly is adding a type of header based authentication and changing the endpoints. The authentication part is optional and the endpoint used here is `/file/:chat_id/:message_id`. Make sure to note these changes when deploying your own instance. The streaming service used for [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot") is not related to [TgFileStream](https://github.com/Noone927/tgfilestream) and I do not plan to make it OSS.
 
 ## Supported commands and functions
 
